@@ -13,7 +13,7 @@ I have implemented 5 types of topological network-based link prediction methods 
 I considered the above features calculated for each edge as input features for the below classification method and gave each edge a label (1/0) depending on whether the edge is present in the network or not.
 The implemented classification techniques for link prediction are:
 
-    • Naïve Bayes
+    • Gaussian Naïve Bayes
 
 Used 5-fold cross validation for finding precision, recall and AUC scores for the classifiers.
 Libraries used: 
